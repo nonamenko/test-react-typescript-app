@@ -1,25 +1,27 @@
+/*
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "short_name": "React App",           // The short name used on the user's home screen or app launcher.
+  "name": "Create React App Sample",     // The full name of the application.
+  "icons": [                             // An array of icons used for different device contexts.
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon.ico",              // Icon file for browsers (favicon).
+      "sizes": "64x64 32x32 24x24 16x16",  // Available icon sizes.
+      "type": "image/x-icon"             // MIME type of the icon.
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "logo192.png",              // Icon file in PNG format.
+      "type": "image/png",               // MIME type of the PNG icon.
+      "sizes": "192x192"                 // Size of the icon.
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "logo512.png",              // Larger icon file in PNG format.
+      "type": "image/png",               // MIME type of the PNG icon.
+      "sizes": "512x512"                 // Size of the icon.
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": ".",                      // The URL that loads when the app is launched.
+  "display": "standalone",               // Display mode: 'standalone' makes it appear like a native app without browser UI.
+  "theme_color": "#000000",              // The theme color for the app, affecting the OS UI (e.g., task switcher).
+  "background_color": "#ffffff"          // The background color for the splash screen when the app is launched.
 }
+*/
